@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet"href="TD.css">
+</head>
+<body>
+
+<h1 id="Title"> To Do list </h1>
+<input type="text" id="Task" placeholder="Enter a task">
+<!-- this makes the text box tell the user to enter a task so its not empty -->
+<button id="Add"> Add Task </button>
+
+<div class="TaskHolder">
+    <h3> Current Tasks</h3>
+    <button id="Clear"> Clear Tasks </button>
+    <div id="Tasks">
+        <label id="Task1"> <span id="Task1Text">Task 1</span></label> <button class="finished">Task Finished </button><br>
+        <label id="Task2"> <span id="Task2Text">Task 2</span></label> <button class="finished">Task Finished </button><br>
+        <label id="Task3"> <span id="Task3Text">Task 3</span></label> <button class="finished">Task Finished </button>
+    </div>
+
+</div>
+<script src="TD.js"></script>
+</body>
+</html>

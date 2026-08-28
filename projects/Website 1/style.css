@@ -1,0 +1,65 @@
+body {
+  background-color: crimson;
+}
+h1 {
+  text-align: center;
+    font-size: 50px;
+    font-family: Georgia, serif;    padding: 10px;
+    border-radius: 25px;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+p {
+  font-size: 20px;
+  font-family: fantasy;
+}
+h1 {
+  border-style: dashed;
+  border-width: medium;
+  border-color: white;
+}
+h1 {
+  color: black;
+}
+.character.makoto {
+    float: right;
+    width: 300px;
+    margin-left: 19px;
+    margin-top: -1350px; /* Adjust this value to move it up */
+}
+.character.futaba {
+    float: right;
+    width: 300px;
+    margin-left: 19px;
+    margin-top: -950px; /* Adjust this value to move it up */
+}
+.character.haru {
+    float: right;
+    width: 300px;
+    margin-left: 19px;
+    margin-top: -575px; /* Adjust this value to move it up */
+}
+a{
+    display: block;
+    width: 250px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: blue;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+.persona5:hover{
+  color: yellow;
+
+}

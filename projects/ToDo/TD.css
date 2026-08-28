@@ -1,0 +1,42 @@
+body{
+    text-align:center;
+    background-color: rgba(20, 69, 204, 0.552);
+}
+
+.TaskHolder{
+background-color: rgba(63, 10, 160, 0.46);
+border: 1px solid rgb(255, 255, 255);
+border-radius: 30px;
+width: 90%;
+max-width: 800px;
+min-height: 500px;
+padding: 20px;
+margin: 10px auto; /* centers the div */
+box-sizing: border-box;
+}
+
+#Clear{
+background-color: rgba(152, 15, 15, 0.181);
+border: 1px solid rgb(114, 0, 0);
+border-radius: 25px;/* makes the button rounded */
+color: white;/*changes the text color to white*/
+padding: 10px 20px;/*size of the button*/
+font-size: 16px;/*size of the text*/
+float:right; 
+}
+#Tasks{
+    text-align: left; /* aligns task text to the left */
+    font-size:65px;
+}
+#Add{
+background-color: rgba(15, 152, 15, 0.181);
+}
+
+.finished{
+background-color: rgba(15, 152, 15, 0.181);
+}
+
+.done{
+    text-decoration: line-through;
+}
+

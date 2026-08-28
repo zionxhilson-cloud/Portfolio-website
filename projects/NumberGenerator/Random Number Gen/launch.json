@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open Username.html",
+            "file": "c:\\Users\\zionx\\OneDrive\\Desktop\\Coding\\Random Number Gen\\Username.html"
+        }
+    ]
+}

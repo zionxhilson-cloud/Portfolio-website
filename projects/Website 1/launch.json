@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Open index.html",
+      "file": "C:\\Users\\zionx\\OneDrive\\Desktop\\Coding\\Website 1-20260227T220559Z-1-001\\Website 1\\index.html"
+    }
+  ]
+}
